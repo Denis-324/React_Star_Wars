@@ -9,9 +9,6 @@ import PeopleList from '../../components/PeoplePage/PeopleList'
 const PeoplePage = ({setErrorApi}) => {
    const [people, setPeople] = useState(null)
    
-
-   
-   
    const getResource = async (url) => {
       const res = await getApiResource(url);
 
